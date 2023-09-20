@@ -1,0 +1,27 @@
+.hero-image {
+    width: 100%;
+     /* Add the blur effect */
+  /* filter: blur(4px);
+  -webkit-filter: blur(4px); */
+}
+
+.container {
+    position: relative;
+}
+
+h1,p {
+    background-color: #000000
+    ;
+    color: #fff;
+}
+
+.logo {
+    position: absolute;    
+    Top: 50%;
+    Left: 50%;
+    Transform: translate (-50%, -50%);
+
+    /* position: absolute;
+    bottom: 8px;
+    left: 16px; */
+}
