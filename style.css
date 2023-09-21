@@ -68,16 +68,15 @@ body{
     position: relative;
 }
 
-h1,p {
-    background-color: #90EE90;
-    ;
+/* h1,p { */
+    /* background-color: #90EE90;
     color: #004242;
-}
+} */
 
 .logo {
     position: absolute;    
     Top: 50%;
-    Left: 50%;
+    Left: 20%;
     Transform: translate (-50%, -50%);
 
     /* position: absolute;
@@ -87,14 +86,14 @@ h1,p {
 
 
   .middle{
-
+    background-color: #90EE90;
   }
 
 /* Footer section */
 .footer {
-    background-color: #90EE90 ;
+    background-color: #35530A ;
 }
 .fa-brands {
     margin: 20px 10px;
-    color: #004242;
+    color: #90EE90;
 }
