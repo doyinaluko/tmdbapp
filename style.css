@@ -52,8 +52,8 @@ styling the header with another color */
   }
 
 
-.body{
-    vertical-height: ;
+body{
+    margin: 0 0;
 }
 
 /* hero section */
@@ -89,4 +89,12 @@ h1,p {
   .middle{
 
   }
-      
+
+/* Footer section */
+.footer {
+    background-color: #90EE90 ;
+}
+.fa-brands {
+    margin: 20px 10px;
+    color: #004242;
+}
