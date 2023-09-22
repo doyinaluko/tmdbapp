@@ -64,7 +64,7 @@ body{
   -webkit-filter: blur(4px); */
 }
 
-.container {
+.body {
     position: relative;
 }
 
@@ -84,6 +84,22 @@ body{
     left: 16px; */
 }
 
+/* The main section where we have all the movies */
+.container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.movie-box{
+  
+}
+
+.main-img{
+  width: 100%;
+  height: 10vh
+}
 
   .middle{
     background-color: #90EE90;
