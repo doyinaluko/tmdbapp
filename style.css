@@ -85,24 +85,20 @@ body{
 }
 
 /* The main section where we have all the movies */
-.container {
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr);
-  grid-template-rows: 1fr;
-}
-
-.movie-box{
-  
-}
-
 .main-img{
   width: 100%;
-  height: 10vh
+  height: 50vh
 }
+
+.wrapper-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 
   .middle{
     background-color: #90EE90;
+
   }
 
 /* Footer section */
