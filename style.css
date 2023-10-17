@@ -71,7 +71,6 @@ body {
 .container-box{
   display: flex;
   flex-wrap: wrap;
-  border: 2px greenyellow solid;
 }
 
 /* .movie-box {
@@ -85,7 +84,7 @@ body {
   height: 300px;
   margin: 5px;
   justify-content: center;
-  border: 1px #35530a solid;
+  box-shadow: 5px 5px #35530a;
 }
 .description-box{
   width: 250px;
